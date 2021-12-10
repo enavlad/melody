@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #635854;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #3596F5;
+}
+
+.navbar {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.navbar-menu li {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-text {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.navbar-contacts {
+  text-align: right;
+  color: white;
+}
+
+.navbar-tel {
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  font-style: normal;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
